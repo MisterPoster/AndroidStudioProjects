@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="org.palmdigital.mad_lib_v01.MainActivity"
+    android:weightSum="1">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:id="@+id/Adjective4"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:text="Type in a fourth adjective"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Adjective4_TextView"
+                    android:layout_weight="1"
+                    android:textSize="10sp" />
+
+                <Space
+                    android:layout_width="15dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/EnterAdjective4"
+                    android:layout_weight="1"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:id="@+id/Noun4"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:text="Type in a fourth noun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Noun4_TextView"
+                    android:layout_weight="1"
+                    android:textSize="10sp" />
+
+                <Space
+                    android:layout_width="15dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/EnterNoun4"
+                    android:layout_weight="1"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:id="@+id/Noun3"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:text="Type in a third noun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Noun3_TextView"
+                    android:layout_weight="1"
+                    android:textSize="10sp" />
+
+                <Space
+                    android:layout_width="15dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/EnterNoun3"
+                    android:layout_weight="1"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:id="@+id/Noun2"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:text="Type in a second noun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Noun2_TextView"
+                    android:layout_weight="1"
+                    android:textSize="10sp" />
+
+                <Space
+                    android:layout_width="15dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/EnterNoun2"
+                    android:layout_weight="1"
+                    android:textSize="12sp" />
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:id="@+id/Noun"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:text="Type in a noun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Noun_TextView"
+                    android:layout_weight="1"
+                    android:textSize="10sp" />
+
+                <Space
+                    android:layout_width="15dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/EnterNoun"
+                    android:layout_weight="1"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:id="@+id/Adjective3"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:text="Type in third adjective."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Adjective3_TextView"
+                    android:layout_weight="1"
+                    android:textSize="10sp" />
+
+                <Space
+                    android:layout_width="15dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/EnterAdjective3"
+                    android:layout_weight="1"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:id="@+id/Adjective"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Type in a adjective"
+                    android:id="@+id/Adjective_TextView"
+                    android:textSize="10sp"
+                    android:layout_weight="1" />
+
+                <Space
+                    android:layout_width="15dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/EnterAdjective"
+                    android:layout_weight="1"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/Nationality"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:text="Type in a nationality"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Nationality_TextView"
+                    android:layout_weight="1"
+                    android:textSize="10sp" />
+
+                <Space
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/EnterNationality"
+                    android:layout_weight="1"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:id="@+id/Person"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:text="Type in a person's name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Person_TextView"
+                    android:layout_weight="1"
+                    android:textSize="10sp" />
+
+                <Space
+                    android:layout_width="15dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/EnterPerson"
+                    android:layout_weight="1"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:id="@+id/AdjectiveTwo"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:text="Type in a second adjective"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Adjective2_TextView"
+                    android:layout_weight="1"
+                    android:textSize="10sp" />
+
+                <Space
+                    android:layout_width="15dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/EnterAdjective2"
+                    android:layout_weight="1"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <Button
+        android:text="Get Story"
+        android:layout_width="match_parent"
+        android:id="@+id/MakeStory"
+        android:onClick="MakeStory"
+        android:layout_height="wrap_content"
+        android:textSize="10sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/Story"
+        android:textSize="14sp"
+        android:layout_weight="0.05"
+        android:layout_height="65dp" />
+
+</LinearLayout>

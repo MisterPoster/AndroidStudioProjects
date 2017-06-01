@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="horizontal"
+    tools:context="com.example.palmdigital.imageview01.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="First Image" />
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        app:srcCompat="@drawable/rightarrow"
+        android:id="@+id/imageView" />
+
+    <TextView
+        android:text="Upper Middle Picture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:id="@+id/textView" />
+
+    <ImageView
+
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        app:srcCompat="@drawable/stopsign"
+        android:layout_marginTop="125dp"
+        android:id="@+id/imageView2" />
+
+    <TextView
+        android:text="Lower Middle Picture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="210dp"
+        android:id="@+id/textView2" />
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="255dp"
+        app:srcCompat="@drawable/androidguy"
+        android:id="@+id/imageView3" />
+
+    <TextView
+        android:text="Lower Picture"
+        android:layout_marginTop="330dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3" />
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="350dp"
+        app:srcCompat="@drawable/leftarrow"
+        android:id="@+id/imageView4" />
+</RelativeLayout>
